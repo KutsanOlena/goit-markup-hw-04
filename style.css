@@ -439,6 +439,7 @@ footer .logo {
 .footer-link:focus {
   background-color: #31D0AA;
 }
+
 /*portfolio.html*/
 .gallery {
   padding-top: 96px;
@@ -480,6 +481,8 @@ footer .logo {
   border: 1px solid var(--accent-color);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .projects-list {
@@ -498,6 +501,17 @@ footer .logo {
 .projects-item {
   border-bottom: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.projects-link {
+  display: block;
+}
+
+.projects-link:hover,
+.projects-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .projects-list h2 {
